@@ -1,0 +1,5 @@
+1. You can apply input type=color to allow user to select a color of their choice.
+2. Data set returns the list of the data attributes you made up in the html.
+  Ex. <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px" data-cool="emoji">
+  this.dataset = {sizing: px, cool: emoji}
+3. querySelectorAll returns a node list, not an array, therefore limited methods.
