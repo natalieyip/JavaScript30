@@ -1,0 +1,10 @@
+
+lessons learned
+1. map will always return the same amount you give it unlike filter
+2. reduce is similar to a for loop where you set an index and run a for loop and you continue to add to the total
+   ex. total = 0;
+      for( var i = 0; i < inventors.length; i++) {
+        total += inventors[i].year
+      }
+3. console.table gives you a nice table
+4. Array.from or the spread operator [...category.querySelectorAll('a')] gives you back an array from a nodelist.
